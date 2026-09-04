@@ -178,6 +178,7 @@ function Logo() {
       <span className="leading-none">
         <strong className="block text-[15px] tracking-[-.03em]">PROVISA</strong>
         <small className="mt-1 block font-mono-ui text-[8px] tracking-[.19em] opacity-70">WRITERS LTD.</small>
+        <small className="block mt-1 text-[8px] opacity-70">Built by xestudioz</small>
       </span>
     </a>
   );

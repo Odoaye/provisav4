@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Provisa Template 2"
+description = "A live standalone preview of the Provisa Writers Template 2 site with the unified Practice navigation."
+version = "1.0.0"
+id = "artifacts/provisa-template-2"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25928
+
+[services.development]
+run = "pnpm --filter @workspace/provisa-template-2 run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/provisa-template-2", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/provisa-template-2/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25928"
+BASE_PATH = "/"

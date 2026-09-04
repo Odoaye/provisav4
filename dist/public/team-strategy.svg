@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1000">
+  <defs><linearGradient id="a" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#d8a27d"/><stop offset=".55" stop-color="#2b6665"/><stop offset="1" stop-color="#17383c"/></linearGradient></defs>
+  <rect width="900" height="1000" fill="url(#a)"/><circle cx="475" cy="410" r="178" fill="#f1c4a6"/><path d="M295 390c24-174 288-222 371-21-92-34-205-21-371 21Z" fill="#19383e"/><path d="M234 1000c11-265 111-397 244-397 156 0 256 132 265 397Z" fill="#dd775d"/><circle cx="416" cy="423" r="12" fill="#19383e"/><circle cx="534" cy="423" r="12" fill="#19383e"/><path d="M440 515c30 19 62 19 91 0" fill="none" stroke="#19383e" stroke-width="10" stroke-linecap="round"/><text x="52" y="70" fill="#fff" font-family="monospace" font-size="22" letter-spacing="5">PROVISA / 01</text>
+</svg>

@@ -3,4 +3,9 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist/public",
   "installCommand": "npm install"
+  ,
+  "rewrites": [
+    { "source": "/pwadmin", "destination": "/index.html" },
+    { "source": "/pwadmin/:path*", "destination": "/index.html" }
+  ]
 }

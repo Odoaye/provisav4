@@ -178,7 +178,6 @@ function Logo() {
       <span className="leading-none">
         <strong className="block text-[15px] tracking-[-.03em]">PROVISA</strong>
         <small className="mt-1 block font-mono-ui text-[8px] tracking-[.19em] opacity-70">WRITERS LTD.</small>
-        <small className="block mt-1 text-[8px] opacity-70">Built by xestudioz</small>
       </span>
     </a>
   );
@@ -476,7 +475,7 @@ function Home() {
              <a href="/pwadmin" className="transition-colors hover:text-primary-foreground">Team login</a>
            </div>
            <div className="mt-7 flex flex-wrap items-center justify-between gap-5 border-t border-primary-foreground/15 pt-6">
-             <a href="https://wa.me/2348160550258?text=Hello%20Provisa%20Writers%2C%20I%27d%20like%20to%20ask%20a%20question." target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 font-semibold text-primary-foreground transition-colors hover:text-accent"><MessageCircle size={17} /> Shout us on WhatsApp</a>
+             <a href="https://wa.me/2348160550258?text=Hello%20Provisa%20Writers%2C%20I%27d%20like%20to%20ask%20a%20question." target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 font-semibold text-primary-foreground transition-colors hover:text-accent"><MessageCircle size={17} /> Reach out to us on WhatsApp</a>
              <SocialLinks dark />
            </div>
          </div>
